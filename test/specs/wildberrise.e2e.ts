@@ -8,7 +8,6 @@ describe('My Login application', () => {
         await browser.url("/");
     });
 
-    
 
     it('should search for a product', async () => {
        // await HomePage.open();
