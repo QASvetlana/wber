@@ -19,6 +19,16 @@ class MainPage extends Page {
         await this.searchButton.waitForClickable();
         await this.searchButton.click();
     }
+
+    public get btnCookies () {
+        return $("//button[contains(@class, 'cookies__btn')]");
+    }
+
+    public async clickToBtnCookies() {
+        await this.btnCookies.waitForClickable();
+        await this.btnCookies.click();
+    }
+   
 }
 
 
