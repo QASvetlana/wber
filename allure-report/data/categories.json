@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Can't call getText on element with selector \"span.nav-element__badge\" because element wasn't found",
+      "children" : [ {
+        "name" : "should add a product to the cart",
+        "uid" : "7158d2fab84568a5",
+        "parentUid" : "fb4ccd3ff80295770b71b54eb59d20e2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1720622127018,
+          "stop" : 1720622144865,
+          "duration" : 17847
+        },
+        "flaky" : false,
+        "parameters" : [ "chrome-126.0.6478.127" ]
+      } ],
+      "uid" : "fb4ccd3ff80295770b71b54eb59d20e2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

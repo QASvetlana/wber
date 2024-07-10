@@ -13,7 +13,7 @@ describe('E2E tests for wildberries', () => {
     });
 
 
-    it.skip('should search for a product', async () => {
+    it('should search for a product', async () => {
         await MainPage.search('Ноутбук');
         const resultsTitle = await $('h1');
         
@@ -21,7 +21,7 @@ describe('E2E tests for wildberries', () => {
         await expect(resultsTitle).toHaveText('Ноутбук');
     });
 
-   it.only('should add a product to the cart', async () => {
+   it('should add a product to the cart', async () => {
         await MainPage.clickToBtnCookies();
         await browser.pause(2000);
         await MainPage.search('Карандаш');

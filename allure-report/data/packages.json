@@ -1,0 +1,33 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "C:.Users.sve79.OneDrive.Рабочий стол.projects.wber.wber.test.specs.wildberrise.e2e.ts",
+    "children" : [ {
+      "name" : "should search for a product",
+      "uid" : "4478fa6051b506a4",
+      "parentUid" : "7455712b5c9dbab2cabda553efc78dac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720622120451,
+        "stop" : 1720622127014,
+        "duration" : 6563
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome-126.0.6478.127" ]
+    }, {
+      "name" : "should add a product to the cart",
+      "uid" : "7158d2fab84568a5",
+      "parentUid" : "7455712b5c9dbab2cabda553efc78dac",
+      "status" : "broken",
+      "time" : {
+        "start" : 1720622127018,
+        "stop" : 1720622144865,
+        "duration" : 17847
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome-126.0.6478.127" ]
+    } ],
+    "uid" : "C:.Users.sve79.OneDrive.Рабочий стол.projects.wber.wber.test.specs.wildberrise.e2e.ts"
+  } ]
+}

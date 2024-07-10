@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "E2E tests for wildberries",
+    "children" : [ {
+      "name" : "should search for a product",
+      "uid" : "4478fa6051b506a4",
+      "parentUid" : "da629581304983068b252d1c3866f7ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720622120451,
+        "stop" : 1720622127014,
+        "duration" : 6563
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome-126.0.6478.127" ]
+    }, {
+      "name" : "should add a product to the cart",
+      "uid" : "7158d2fab84568a5",
+      "parentUid" : "da629581304983068b252d1c3866f7ab",
+      "status" : "broken",
+      "time" : {
+        "start" : 1720622127018,
+        "stop" : 1720622144865,
+        "duration" : 17847
+      },
+      "flaky" : false,
+      "parameters" : [ "chrome-126.0.6478.127" ]
+    } ],
+    "uid" : "da629581304983068b252d1c3866f7ab"
+  } ]
+}
