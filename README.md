@@ -1,7 +1,5 @@
 # Wildberries Autotests
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
 ## Описание
 
 Этот проект содержит автотесты для интернет-магазина Wildberries, написанные на языке TypeScript с использованием WebdriverIO (WDIO). Автотесты охватывают такие функции, как поиск товара и добавление товара в корзину.
