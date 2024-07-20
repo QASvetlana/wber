@@ -1,0 +1,41 @@
+{
+  "868ba4641f45b72c66ccb6dc37d7719b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4478fa6051b506a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1720622120451,
+        "stop" : 1720622127014,
+        "duration" : 6563
+      }
+    } ]
+  },
+  "edb0b37c063815d28f001dfedb5eab77" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7158d2fab84568a5",
+      "status" : "broken",
+      "statusDetails" : "Can't call getText on element with selector \"span.nav-element__badge\" because element wasn't found",
+      "time" : {
+        "start" : 1720622127018,
+        "stop" : 1720622144865,
+        "duration" : 17847
+      }
+    } ]
+  }
+}

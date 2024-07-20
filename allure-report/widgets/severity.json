@@ -1,0 +1,21 @@
+[ {
+  "uid" : "7158d2fab84568a5",
+  "name" : "should add a product to the cart",
+  "time" : {
+    "start" : 1720622127018,
+    "stop" : 1720622144865,
+    "duration" : 17847
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4478fa6051b506a4",
+  "name" : "should search for a product",
+  "time" : {
+    "start" : 1720622120451,
+    "stop" : 1720622127014,
+    "duration" : 6563
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

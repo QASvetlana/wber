@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//button[contains(@class, 'search-catalog__btn')])[1]"
+}
